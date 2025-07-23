@@ -18,15 +18,5 @@ module.exports = {
   roots: [process.cwd() + "/src"],
 
   // The test environment that will be used for testing
-  testEnvironment: "node",
-
-  // Whether to use watchman for file crawling
-  // watchman: true,
-  globals: {
-    "ts-jest": {
-      // https://github.com/kulshekhar/ts-jest/issues/259#issuecomment-504088010
-      maxWorkers: 1,
-      diagnostics: false,
-    },
-  },
+  testEnvironment: "node"
 };
